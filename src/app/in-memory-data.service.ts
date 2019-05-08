@@ -8,16 +8,13 @@ import { Injectable } from '@angular/core';
 export class InMemoryDataService implements InMemoryDbService {
   createDb() {
     const heroes = [
-      { id: 11, name: 'rm -rf standalone/deployments/interbank-pay-core.war && ln -s /customize/war/interbank-pay-core.war standalone/deployments/ && exit' },
-      { id: 12, name: 'Narco' },
-      { id: 13, name: 'Bombasto' },
-      { id: 14, name: 'Celeritas' },
-      { id: 15, name: 'Magneta' },
-      { id: 16, name: 'ng build --prod --output-path docs --base-href /x-commands/' },
-      { id: 17, name: 'ng serve' },
-      { id: 18, name: 'Dr IQ' },
-      { id: 19, name: 'Magma' },
-      { id: 20, name: 'Tornado' }
+      { id: 1, name: 'rm -rf standalone/deployments/interbank-pay-core.war && ln -s /customize/war/interbank-pay-core.war standalone/deployments/ && exit' },
+      { id: 2, name: 'ng build --prod --output-path docs --base-href /x-commands/' },
+      { id: 3, name: 'ng serve' },
+      { id: 4, name: 'happy' },
+      { id: 5, name: 'right' },
+      { id: 6, name: 'now' },
+      { id: 7, name: 'life' }
     ];
     return {heroes};
   }

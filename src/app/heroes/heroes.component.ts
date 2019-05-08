@@ -10,6 +10,7 @@ import { HeroService } from '../hero.service';
 })
 export class HeroesComponent implements OnInit {
   heroes: Hero[];
+  buttonCopy = 'copy';
 
   constructor(private heroService: HeroService) { }
 
@@ -38,6 +39,7 @@ export class HeroesComponent implements OnInit {
 
 /* To copy any Text */
 copyText(hero: Hero){
+  this.buttonCopy = 'copied';
   let selBox = document.createElement('textarea');
     selBox.style.position = 'fixed';
     selBox.style.left = '0';
