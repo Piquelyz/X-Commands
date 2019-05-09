@@ -11,7 +11,7 @@ export class InMemoryDataService implements InMemoryDbService {
       { id: 1, name: 'rm -rf standalone/deployments/interbank-pay-core.war && ln -s /customize/war/interbank-pay-core.war standalone/deployments/ && exit' },
       { id: 2, name: 'ng build --prod --output-path docs --base-href /x-commands/' },
       { id: 3, name: 'ng serve' },
-      { id: 4, name: 'happy' },
+      { id: 4, name: 'update AccountPeps set counterPwd=0, pwdBlockedStatus=0, pwdBlockedDate=NULL, tempPwdBlockedDate=NULL where login = \'jt@bnpp.fr\'\;' },
       { id: 5, name: 'right' },
       { id: 6, name: 'now' },
       { id: 7, name: 'life' }
